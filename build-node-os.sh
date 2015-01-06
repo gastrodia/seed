@@ -2,7 +2,7 @@
 wget ftp://gcc.gnu.org/pub/gcc/infrastructure/gmp-4.3.2.tar.bz2
 tar jxvf gmp-4.3.2.tar.bz2
 cd gmp-4.3.2
-./configure
+./configure 
 make -j 8
 make check
 sudo make install
