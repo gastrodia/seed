@@ -12,3 +12,7 @@ cd emsdk-portable
 
 # Make the "latest" SDK "active"
 ./emsdk activate latest
+
+./emsdk construct_env
+./emsdk_env.sh
+./emsdk_set_env.sh
